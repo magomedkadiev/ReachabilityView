@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  ReachabilityView
+//  ReachabilityViewDemo
 //
 //  Created by Султан Магомедкадиев on 09/01/2017.
 //  Copyright © 2017 Magomedkadiev. All rights reserved.

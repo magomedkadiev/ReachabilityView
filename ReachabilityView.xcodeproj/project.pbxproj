@@ -7,25 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39D517B51E23BAB7006EA59F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D517B41E23BAB7006EA59F /* AppDelegate.swift */; };
-		39D517B71E23BAB7006EA59F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D517B61E23BAB7006EA59F /* ViewController.swift */; };
-		39D517BA1E23BAB7006EA59F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D517B81E23BAB7006EA59F /* Main.storyboard */; };
-		39D517BC1E23BAB7006EA59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39D517BB1E23BAB7006EA59F /* Assets.xcassets */; };
-		39D517BF1E23BAB7006EA59F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D517BD1E23BAB7006EA59F /* LaunchScreen.storyboard */; };
+		39D5180A1E23DB74006EA59F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D518091E23DB74006EA59F /* AppDelegate.swift */; };
+		39D5180C1E23DB74006EA59F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D5180B1E23DB74006EA59F /* ViewController.swift */; };
+		39D5180F1E23DB74006EA59F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D5180D1E23DB74006EA59F /* Main.storyboard */; };
+		39D518111E23DB74006EA59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39D518101E23DB74006EA59F /* Assets.xcassets */; };
+		39D518141E23DB74006EA59F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D518121E23DB74006EA59F /* LaunchScreen.storyboard */; };
+		39D5181A1E23DBF2006EA59F /* ReachabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D518191E23DBF2006EA59F /* ReachabilityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		39D517B11E23BAB7006EA59F /* ReachabilityView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReachabilityView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		39D517B41E23BAB7006EA59F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		39D517B61E23BAB7006EA59F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		39D517B91E23BAB7006EA59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		39D517BB1E23BAB7006EA59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		39D517BE1E23BAB7006EA59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		39D517C01E23BAB7006EA59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D517F81E23DA9A006EA59F /* ReachabilityView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilityView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D517FC1E23DA9A006EA59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D518071E23DB74006EA59F /* ReachabilityViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReachabilityViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D518091E23DB74006EA59F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39D5180B1E23DB74006EA59F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39D5180E1E23DB74006EA59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39D518101E23DB74006EA59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39D518131E23DB74006EA59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39D518151E23DB74006EA59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D518191E23DBF2006EA59F /* ReachabilityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		39D517AE1E23BAB7006EA59F /* Frameworks */ = {
+		39D517F41E23DA9A006EA59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D518041E23DB74006EA59F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,45 +46,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		39D517A81E23BAB7006EA59F = {
+		39D517EE1E23DA9A006EA59F = {
 			isa = PBXGroup;
 			children = (
-				39D517B31E23BAB7006EA59F /* ReachabilityView */,
-				39D517B21E23BAB7006EA59F /* Products */,
+				39D517FA1E23DA9A006EA59F /* Source */,
+				39D518081E23DB74006EA59F /* Demo */,
+				39D517F91E23DA9A006EA59F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		39D517B21E23BAB7006EA59F /* Products */ = {
+		39D517F91E23DA9A006EA59F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				39D517B11E23BAB7006EA59F /* ReachabilityView.app */,
+				39D517F81E23DA9A006EA59F /* ReachabilityView.framework */,
+				39D518071E23DB74006EA59F /* ReachabilityViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		39D517B31E23BAB7006EA59F /* ReachabilityView */ = {
+		39D517FA1E23DA9A006EA59F /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				39D517B41E23BAB7006EA59F /* AppDelegate.swift */,
-				39D517B61E23BAB7006EA59F /* ViewController.swift */,
-				39D517B81E23BAB7006EA59F /* Main.storyboard */,
-				39D517BB1E23BAB7006EA59F /* Assets.xcassets */,
-				39D517BD1E23BAB7006EA59F /* LaunchScreen.storyboard */,
-				39D517C01E23BAB7006EA59F /* Info.plist */,
+				39D517FC1E23DA9A006EA59F /* Info.plist */,
+				39D518191E23DBF2006EA59F /* ReachabilityView.swift */,
 			);
-			path = ReachabilityView;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		39D518081E23DB74006EA59F /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				39D518091E23DB74006EA59F /* AppDelegate.swift */,
+				39D5180B1E23DB74006EA59F /* ViewController.swift */,
+				39D5180D1E23DB74006EA59F /* Main.storyboard */,
+				39D518101E23DB74006EA59F /* Assets.xcassets */,
+				39D518121E23DB74006EA59F /* LaunchScreen.storyboard */,
+				39D518151E23DB74006EA59F /* Info.plist */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		39D517F51E23DA9A006EA59F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		39D517B01E23BAB7006EA59F /* ReachabilityView */ = {
+		39D517F71E23DA9A006EA59F /* ReachabilityView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39D517C31E23BAB7006EA59F /* Build configuration list for PBXNativeTarget "ReachabilityView" */;
+			buildConfigurationList = 39D518001E23DA9A006EA59F /* Build configuration list for PBXNativeTarget "ReachabilityView" */;
 			buildPhases = (
-				39D517AD1E23BAB7006EA59F /* Sources */,
-				39D517AE1E23BAB7006EA59F /* Frameworks */,
-				39D517AF1E23BAB7006EA59F /* Resources */,
+				39D517F31E23DA9A006EA59F /* Sources */,
+				39D517F41E23DA9A006EA59F /* Frameworks */,
+				39D517F51E23DA9A006EA59F /* Headers */,
+				39D517F61E23DA9A006EA59F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,26 +114,48 @@
 			);
 			name = ReachabilityView;
 			productName = ReachabilityView;
-			productReference = 39D517B11E23BAB7006EA59F /* ReachabilityView.app */;
+			productReference = 39D517F81E23DA9A006EA59F /* ReachabilityView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		39D518061E23DB74006EA59F /* ReachabilityViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D518161E23DB74006EA59F /* Build configuration list for PBXNativeTarget "ReachabilityViewDemo" */;
+			buildPhases = (
+				39D518031E23DB74006EA59F /* Sources */,
+				39D518041E23DB74006EA59F /* Frameworks */,
+				39D518051E23DB74006EA59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilityViewDemo;
+			productName = ReachabilityViewDemo;
+			productReference = 39D518071E23DB74006EA59F /* ReachabilityViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		39D517A91E23BAB7006EA59F /* Project object */ = {
+		39D517EF1E23DA9A006EA59F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Magomedkadiev;
 				TargetAttributes = {
-					39D517B01E23BAB7006EA59F = {
+					39D517F71E23DA9A006EA59F = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					39D518061E23DB74006EA59F = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 39D517AC1E23BAB7006EA59F /* Build configuration list for PBXProject "ReachabilityView" */;
+			buildConfigurationList = 39D517F21E23DA9A006EA59F /* Build configuration list for PBXProject "ReachabilityView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +163,70 @@
 				en,
 				Base,
 			);
-			mainGroup = 39D517A81E23BAB7006EA59F;
-			productRefGroup = 39D517B21E23BAB7006EA59F /* Products */;
+			mainGroup = 39D517EE1E23DA9A006EA59F;
+			productRefGroup = 39D517F91E23DA9A006EA59F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				39D517B01E23BAB7006EA59F /* ReachabilityView */,
+				39D517F71E23DA9A006EA59F /* ReachabilityView */,
+				39D518061E23DB74006EA59F /* ReachabilityViewDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		39D517AF1E23BAB7006EA59F /* Resources */ = {
+		39D517F61E23DA9A006EA59F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39D517BF1E23BAB7006EA59F /* LaunchScreen.storyboard in Resources */,
-				39D517BC1E23BAB7006EA59F /* Assets.xcassets in Resources */,
-				39D517BA1E23BAB7006EA59F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D518051E23DB74006EA59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D518141E23DB74006EA59F /* LaunchScreen.storyboard in Resources */,
+				39D518111E23DB74006EA59F /* Assets.xcassets in Resources */,
+				39D5180F1E23DB74006EA59F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		39D517AD1E23BAB7006EA59F /* Sources */ = {
+		39D517F31E23DA9A006EA59F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39D517B71E23BAB7006EA59F /* ViewController.swift in Sources */,
-				39D517B51E23BAB7006EA59F /* AppDelegate.swift in Sources */,
+				39D5181A1E23DBF2006EA59F /* ReachabilityView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D518031E23DB74006EA59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D5180C1E23DB74006EA59F /* ViewController.swift in Sources */,
+				39D5180A1E23DB74006EA59F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		39D517B81E23BAB7006EA59F /* Main.storyboard */ = {
+		39D5180D1E23DB74006EA59F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				39D517B91E23BAB7006EA59F /* Base */,
+				39D5180E1E23DB74006EA59F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		39D517BD1E23BAB7006EA59F /* LaunchScreen.storyboard */ = {
+		39D518121E23DB74006EA59F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				39D517BE1E23BAB7006EA59F /* Base */,
+				39D518131E23DB74006EA59F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +234,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		39D517C11E23BAB7006EA59F /* Debug */ = {
+		39D517FE1E23DA9A006EA59F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -186,6 +257,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -210,10 +282,12 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		39D517C21E23BAB7006EA59F /* Release */ = {
+		39D517FF1E23DA9A006EA59F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,6 +310,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -253,28 +328,69 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		39D517C41E23BAB7006EA59F /* Debug */ = {
+		39D518011E23DA9A006EA59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ReachabilityView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Magomedkadiev.ReachabilityView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		39D518021E23DA9A006EA59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ReachabilityView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Magomedkadiev.ReachabilityView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		39D518171E23DB74006EA59F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ReachabilityView/Info.plist;
+				INFOPLIST_FILE = ReachabilityViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Magomedkadiev.ReachabilityView;
+				PRODUCT_BUNDLE_IDENTIFIER = Magomedkadiev.ReachabilityViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		39D517C51E23BAB7006EA59F /* Release */ = {
+		39D518181E23DB74006EA59F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ReachabilityView/Info.plist;
+				INFOPLIST_FILE = ReachabilityViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Magomedkadiev.ReachabilityView;
+				PRODUCT_BUNDLE_IDENTIFIER = Magomedkadiev.ReachabilityViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -283,24 +399,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		39D517AC1E23BAB7006EA59F /* Build configuration list for PBXProject "ReachabilityView" */ = {
+		39D517F21E23DA9A006EA59F /* Build configuration list for PBXProject "ReachabilityView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39D517C11E23BAB7006EA59F /* Debug */,
-				39D517C21E23BAB7006EA59F /* Release */,
+				39D517FE1E23DA9A006EA59F /* Debug */,
+				39D517FF1E23DA9A006EA59F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39D517C31E23BAB7006EA59F /* Build configuration list for PBXNativeTarget "ReachabilityView" */ = {
+		39D518001E23DA9A006EA59F /* Build configuration list for PBXNativeTarget "ReachabilityView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39D517C41E23BAB7006EA59F /* Debug */,
-				39D517C51E23BAB7006EA59F /* Release */,
+				39D518011E23DA9A006EA59F /* Debug */,
+				39D518021E23DA9A006EA59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39D518161E23DB74006EA59F /* Build configuration list for PBXNativeTarget "ReachabilityViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D518171E23DB74006EA59F /* Debug */,
+				39D518181E23DB74006EA59F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 39D517A91E23BAB7006EA59F /* Project object */;
+	rootObject = 39D517EF1E23DA9A006EA59F /* Project object */;
 }
