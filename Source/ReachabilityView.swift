@@ -26,18 +26,18 @@ open class ReachabilityView: UIView {
     }
     
     // MARK: - Private Methods
-    open func createMoovingView() -> UIView {
+    override open func createMoovingView() -> UIView {
         return UIView(frame: CGRect.zero)
     }
     
-    open func createMessageLabel() -> UILabel {
+    override open func createMessageLabel() -> UILabel {
         let label = UILabel(frame: CGRect.zero)
         label.textAlignment = NSTextAlignment.center
         label.baselineAdjustment = UIBaselineAdjustment.alignCenters
         return label
     }
     
-    open func setupViews() {
+    override open func setupViews() {
         self.backgroundColor = UIColor.clear
         self.clipsToBounds = true
         self.isHidden = true
@@ -75,14 +75,14 @@ open class ReachabilityView: UIView {
         self.addConstraints(self.hideStateConstraints)
     }
     
-    open func configureViewsOfflineState() {
+    override open func configureViewsOfflineState() {
         self.messageLabel.textAlignment = NSTextAlignment.center;
         self.messageLabel.text = "Offline";
         self.messageLabel.textColor = UIColor.white
         self.moovingView.backgroundColor = UIColor.darkGray
     }
     
-    open func configureViewsOnlineState() {
+    override open func configureViewsOnlineState() {
         self.messageLabel.textAlignment = NSTextAlignment.center;
         self.messageLabel.text = "Connected";
         self.messageLabel.textColor = UIColor.white
@@ -90,7 +90,7 @@ open class ReachabilityView: UIView {
     }
     
     // MARK: - Internal Methods
-    open func showSlideDownAlertView() {
+    override open func showSlideDownAlertView() {
         self.configureViewsOfflineState()
         self.isHidden = false
         self.removeConstraints(self.hideStateConstraints)
@@ -100,7 +100,7 @@ open class ReachabilityView: UIView {
         })
     }
     
-    open func hideSlideDownAlertView() {
+    override open func hideSlideDownAlertView() {
         self.configureViewsOnlineState()
         self.removeConstraints(self.showStateConstraints)
         self.addConstraints(self.hideStateConstraints)
