@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class ReachabilityView: UIView {
+public class ReachabilityView: UIView {
     var moovingView: UIView!
     var messageLabel: UILabel!
     private var showStateConstraints: Array<NSLayoutConstraint>!
@@ -90,7 +90,7 @@ open class ReachabilityView: UIView {
     }
     
     // MARK: - Internal Methods
-    func showSlideDownAlertView() {
+    static public func showSlideDownAlertView() {
         self.configureViewsOfflineState()
         self.isHidden = false
         self.removeConstraints(self.hideStateConstraints)
@@ -100,7 +100,7 @@ open class ReachabilityView: UIView {
         })
     }
     
-    func hideSlideDownAlertView() {
+    static public func hideSlideDownAlertView() {
         self.configureViewsOnlineState()
         self.removeConstraints(self.showStateConstraints)
         self.addConstraints(self.hideStateConstraints)
