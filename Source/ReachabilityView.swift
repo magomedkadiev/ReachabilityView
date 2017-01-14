@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class ReachabilityView: UIView {
+open class ReachabilityView: UIView {
     var moovingView: UIView!
     var messageLabel: UILabel!
     private var showStateConstraints: Array<NSLayoutConstraint>!
@@ -26,18 +26,18 @@ public class ReachabilityView: UIView {
     }
     
     // MARK: - Private Methods
-    private func createMoovingView() -> UIView {
+    open func createMoovingView() -> UIView {
         return UIView(frame: CGRect.zero)
     }
     
-    private func createMessageLabel() -> UILabel {
+    open func createMessageLabel() -> UILabel {
         let label = UILabel(frame: CGRect.zero)
         label.textAlignment = NSTextAlignment.center
         label.baselineAdjustment = UIBaselineAdjustment.alignCenters
         return label
     }
     
-    private func setupViews() {
+    open func setupViews() {
         self.backgroundColor = UIColor.clear
         self.clipsToBounds = true
         self.isHidden = true
@@ -75,14 +75,14 @@ public class ReachabilityView: UIView {
         self.addConstraints(self.hideStateConstraints)
     }
     
-    private func configureViewsOfflineState() {
+    open func configureViewsOfflineState() {
         self.messageLabel.textAlignment = NSTextAlignment.center;
         self.messageLabel.text = "Offline";
         self.messageLabel.textColor = UIColor.white
         self.moovingView.backgroundColor = UIColor.darkGray
     }
     
-    private func configureViewsOnlineState() {
+    open func configureViewsOnlineState() {
         self.messageLabel.textAlignment = NSTextAlignment.center;
         self.messageLabel.text = "Connected";
         self.messageLabel.textColor = UIColor.white
@@ -90,7 +90,7 @@ public class ReachabilityView: UIView {
     }
     
     // MARK: - Internal Methods
-    static public func showSlideDownAlertView() {
+    open func showSlideDownAlertView() {
         self.configureViewsOfflineState()
         self.isHidden = false
         self.removeConstraints(self.hideStateConstraints)
@@ -100,7 +100,7 @@ public class ReachabilityView: UIView {
         })
     }
     
-    static public func hideSlideDownAlertView() {
+    open func hideSlideDownAlertView() {
         self.configureViewsOnlineState()
         self.removeConstraints(self.showStateConstraints)
         self.addConstraints(self.hideStateConstraints)
